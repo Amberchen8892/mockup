@@ -44,7 +44,7 @@ const ChatSidebar = () => {
   const handleSearchSelect = (result) => {
     setIsSearchFocused(false);
     setSearchQuery('');
-    navigate(`/dashboard/chat/${result.username}`);
+    navigate(`/chat/${result.username}`);
   };
 
   return (
@@ -80,7 +80,7 @@ const ChatSidebar = () => {
         </IconButton>
         <IconButton
           component={RouterLink}
-          to="/dashboard/chat/new"
+          to="/chat/new"
         >
           <PencilAltIcon fontSize="small" />
         </IconButton>

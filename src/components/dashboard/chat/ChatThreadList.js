@@ -24,7 +24,7 @@ const ChatThreadList = (props) => {
       threadKey = otherParticipant.username;
     }
 
-    navigate(`/dashboard/chat/${threadKey}`);
+    navigate(`/chat/${threadKey}`);
   };
 
   return (

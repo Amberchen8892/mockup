@@ -24,7 +24,7 @@ const Label = experimentalStyled('span')(({ theme }) => ({
 
 const getTo = (params, emailId) => {
   const { systemLabel, customLabel } = params;
-  const baseUrl = '/dashboard/mail';
+  const baseUrl = '/mail';
 
   if (systemLabel) {
     return `${baseUrl}/${systemLabel}/${emailId}`;

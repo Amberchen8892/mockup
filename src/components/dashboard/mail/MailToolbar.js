@@ -11,14 +11,14 @@ const MailToolbar = (props) => {
 
   const handleBack = () => {
     if (systemLabel) {
-      return navigate(`/dashboard/mail/${systemLabel}`);
+      return navigate(`mail/${systemLabel}`);
     }
 
     if (customLabel) {
-      return navigate(`/dashboard/mail/label/${customLabel}`);
+      return navigate(`mail/label/${customLabel}`);
     }
 
-    return navigate('/dashboard/mail/inbox');
+    return navigate('mail/inbox');
   };
 
   return (

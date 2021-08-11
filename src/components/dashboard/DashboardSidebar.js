@@ -166,7 +166,7 @@ const sections = [
       // },
       {
         title: 'Mail',
-        path: '/mail',
+        path: '/mail/all',
         icon: <MailIcon fontSize="small" />
       },
       {

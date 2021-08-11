@@ -49,7 +49,7 @@ const ChatThread = () => {
       // the server throws an error, this means that the user tried a shady route
       // and we redirect him on the compose route
       console.error(err);
-      navigate('/dashboard/chat/new');
+      navigate('/chat/new');
     }
   };
 

@@ -8,9 +8,9 @@ export const amplifyConfig = {
 
 export const auth0Config = {
   client_id: process.env.REACT_APP_AUTH0_CLIENT_ID,
-  domain: process.env.REACT_APP_AUTH0_DOMAIN
-  // client_id: 'GjVrXA1PXRa0lDnI1a52kWick83Vvig1',
-  // domain: 'dev-9n29venq.us.auth0.com',
+  domain: process.env.REACT_APP_AUTH0_DOMAIN,
+  // client_id: 'Xidu7y4CbD3IGSL0hZF3qINMaHGgYEJW',
+  // domain: 'dev-b6xhx198.us.auth0.com',
 };
 
 export const firebaseConfig = {
