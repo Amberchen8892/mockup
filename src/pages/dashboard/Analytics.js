@@ -129,7 +129,11 @@ const Analytics = () => {
               <AnalyticsClosedOpen sx={{ height: '100%' }} />
               {/* <AnalyticsVisitsByCountry /> */}
             </Grid>
-            <Grid item xl={3} md={4} xs={12}>
+            <Grid 
+              item 
+              xl={3} 
+              md={4} 
+              xs={12}>
               {/* <AnalyticsVisitsByCountry /> */}
               <AnalyticsSocialMediaSources />
             </Grid>
