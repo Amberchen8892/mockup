@@ -43,7 +43,7 @@ const sections = [
       // },
       {
         title: 'Account',
-        path: '/dashboard/account',
+        path: '/account',
         icon: <UserIcon fontSize="small" />
       }
     ]
